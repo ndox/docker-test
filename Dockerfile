@@ -1,2 +1,2 @@
-FROM fedora
-CMD ["/usr/bin/ping","localhost"]
+FROM ubuntu:trusty
+CMD ["/bin/ping","localhost"]
